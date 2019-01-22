@@ -48,7 +48,7 @@ var force = d3.layout.force()
     .linkDistance(40)
     .size([width, height]);
 
-d3.json("https://github.com/ChernyshevUrait/disciplines/blob/master/g.json", function(error, json) {
+d3.json("https://api.myjson.com/bins/ha0h8", function(error, json) {
   if (error) throw error;
 
   force
